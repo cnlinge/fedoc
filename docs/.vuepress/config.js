@@ -1,6 +1,7 @@
 module.exports = {
   title: 'Hello VuePress',
   description: 'Just playing around',
+  dest: 'public',
   themeConfig: {
     displayAllHeaders: true, // 默认值：false
     // sidebar: 'auto',
