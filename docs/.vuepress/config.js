@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Hello VuePress1111',
   description: 'Just playing around',
-  base: '/fedoc/',
+  base: '/public/',
   dest: 'public',
   themeConfig: {
     displayAllHeaders: true, // 默认值：false
