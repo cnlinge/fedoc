@@ -4,7 +4,7 @@
 set -e
 
 # 生成静态文件
-# npm run docs:build
+npm run docs:build
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
@@ -21,7 +21,10 @@ git commit -m 'deploy'
 # git push -f git@github.com:cnlinge/cnlinge.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:cnlinge/fedoc.git master
 git push -f git@github.com:cnlinge/fedoc.git master:gh-pages
 
 cd -
+
+
+# 用于测试ssh-key通不通
+# ssh -T git@github.com
