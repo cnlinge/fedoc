@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Hello VuePress',
+  title: 'Hello VuePress1111',
   description: 'Just playing around',
   base: '/fedoc/',
   dest: 'public',
